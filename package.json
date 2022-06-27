@@ -1,7 +1,19 @@
 {
   "name": "frontend",
   "version": "0.1.0",
+  "author": {
+     "email": "timo.angst@bluewin.ch",
+     "name": "Timo Angst",
+     "url": "https://td3v.ch"
+  },
   "private": true,
+  "license": "MIT",
+  "homepage": "https://github.com/T-D3V/next-default",
+  "engines": {
+    "node": ">=16.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
