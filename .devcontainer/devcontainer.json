@@ -1,0 +1,14 @@
+{
+  "name": "NextDefault",
+  "dockerComposeFile": ["docker-compose.yml"],
+  "service": "web",
+  "shutdownAction": "none",
+  "forwardPorts": [3000],
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "Prisma.prisma",
+    "esbenp.prettier-vscode"
+  ],
+  "workspaceFolder": "/usr/src/app",
+  "remoteUser": "node"
+}
